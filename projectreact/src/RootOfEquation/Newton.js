@@ -111,7 +111,7 @@ class Newton extends Component {
                         <Content style={{ padding: '0 16px' }}>
                             <Breadcrumb style={{ margin: '16px 0' }}>
                             </Breadcrumb>
-                            <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
+                            <div style={{padding: 24, minHeight: 280 }}className="wallpaperdefault">
                             <Card style={{background:'#CEB3E5' ,width:'500px',margin: 'auto'}}>
                             <h1 style={{ height: '20px' }}></h1>
                                 <Input addonBefore="FX" size='large' style={{ width: '400px' }} value={this.state.A} onChange={this.handleFx} />
