@@ -111,7 +111,7 @@ class Gauss extends Component {
     }
 
     Setvalue(){
-        axios.get('http://localhost:8080/cramer')
+        axios.get('http://192.168.99.100/cramer')
             .then((response)=>{
                 API = response
                 this.setState({

@@ -64,7 +64,7 @@ class Falseposition extends Component {
     }
 
     Setvalue(){
-        axios.get('http://localhost:8080/b')
+        axios.get('http://192.168.99.100:8080/b')
             .then((response)=>{
                 API = response
                 this.setState({

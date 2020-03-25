@@ -78,7 +78,7 @@ class Simson extends Component {
 
 
     Setvalue(){
-        axios.get('http://localhost:8080/tay')
+        axios.get('http://192.168.99.100:8080/tay')
             .then((response)=>{
                 API = response
                 this.setState({

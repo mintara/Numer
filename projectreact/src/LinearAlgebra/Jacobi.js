@@ -43,7 +43,7 @@ class Jacobi extends Component {
 
 
     Setvalue(){
-        axios.get('http://localhost:8080/matrix')
+        axios.get('http://192.168.99.100/matrix')
         .then((response)=>{
             API = response
             this.setState({

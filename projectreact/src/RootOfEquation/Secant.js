@@ -57,7 +57,7 @@ class Secant extends Component {
 
     Setvalue(){
         console.log('response');
-        axios.get('http://localhost:8080/sea')
+        axios.get('http://192.168.99.100:8080/sea')
             .then((response)=>{
                 API = response
                 this.setState({

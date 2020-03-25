@@ -49,7 +49,7 @@ class Onepoint extends Component {
 
     Setvalue(){
         console.log('response');
-        axios.get('http://localhost:8080/ons')
+        axios.get('http://192.168.99.100:8080/ons')
             .then((response)=>{
                 API = response
                 this.setState({

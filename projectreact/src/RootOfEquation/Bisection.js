@@ -122,7 +122,7 @@ class Bisection extends Component {
     }
 
     auto(event) {
-        axios.get('http://localhost:8080/b').then((response) => {
+        axios.get('http://192.168.99.100:8080/b').then((response) => {
             API=response
                 this.setState({
                 A:API.data[0].fx,
