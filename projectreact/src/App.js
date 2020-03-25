@@ -21,7 +21,7 @@ import NTrapzaidol from './Intergation/NTrapzaidol';
 
 function App() {
   return (
-    <div className="App">
+    <div className="wallpaperdefault">
       <H/>
       <Router history={browserHistory} >
         <Route path="/falseposition" component={Falseposition} />
